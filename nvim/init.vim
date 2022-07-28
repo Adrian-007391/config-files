@@ -1,5 +1,6 @@
 "number
 set number
+"mouse click
 set mouse=a
 "plugin utilization
 call plug#begin('~/.config/nvim/autoload')
