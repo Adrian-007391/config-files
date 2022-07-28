@@ -2,6 +2,8 @@
 set number
 "mouse click
 set mouse=a
+" scroll on 8 lines 
+set scrolloff=8
 "plugin utilization
 call plug#begin('~/.config/nvim/autoload')
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
@@ -27,3 +29,4 @@ inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<C-h>"
 noremap y "*y
 noremap p "*p
 noremap x "*x
+
