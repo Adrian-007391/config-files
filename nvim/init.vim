@@ -1,10 +1,16 @@
 "number
-set number
+set relativenumber
+set nu
+
 "mouse click
 set mouse=a
+"Tab 
 set tabstop=4
+set autoindent
+
 " scroll on 8 lines 
 set scrolloff=8
+
 "plugin utilization
 call plug#begin('~/.config/nvim/autoload')
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
