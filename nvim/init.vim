@@ -32,5 +32,5 @@ noremap y "*y
 noremap p "*p
 noremap x "*x
 
-let g:ale_fixers =['prettier']
-let g:ale_fix_on_save = 1
+
+command! -nargs=0 Prettier :CocCommand prettier.forceFormatDocument
