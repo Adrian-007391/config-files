@@ -12,11 +12,14 @@ set scrolloff=8
 call plug#begin('~/.config/nvim/autoload')
 Plug 'preservim/nerdtree'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 call plug#end()
 "command mapping (save and save-quit)
 nnoremap <C-s> :w <Enter>
 nnoremap <C-Enter> :wqa <Enter>
 
+"Command mapping fzf
+nnoremap <C-g> :FZF <Enter>
 
 "command mapping (Nerdtree)
 nnoremap <C-e> :NERDTreeToggle <Enter>
@@ -175,8 +178,6 @@ nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
 noremap y "*y
 noremap p "*p
 noremap x "*x
-noremap dd "*dd
-noremap d "*d
 
 " Command mapping (move lines up and down)
 noremap <C-k> :m .-2 <Enter>
