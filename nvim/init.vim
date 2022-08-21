@@ -1,21 +1,27 @@
 "number
 set relativenumber
 set nu
-
 "Tab 
 set expandtab
 set shiftwidth=4
 " scroll on 8 lines 
 set scrolloff=8
 
+"cursor line
+set cursorline
+
+" no swap files 
+set noswapfile
+
 "plugin utilization
 call plug#begin('~/.config/nvim/autoload')
 Plug 'preservim/nerdtree'
+Plug 'terryma/vim-multiple-cursors'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 call plug#end()
 "command mapping (save and save-quit)
-nnoremap <C-s> :w <Enter>
+noremap <C-s> :w <Enter>
 nnoremap <C-Enter> :wqa <Enter>
 
 "Command mapping fzf
@@ -197,3 +203,7 @@ function! s:check_back_space() abort
 endfunction
 
 let g:coc_snippet_next = '<TAB>'
+
+
+
+

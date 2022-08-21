@@ -26,7 +26,7 @@
         "sysPrefix": "/usr/local/opt/python@3.9/Frameworks/Python.framework/Versions/3.9",
         "fileHash": "7eeadbbd793a971dd841a3336ded8eff9ded04a5759687dd53e74d03c9be30ea9462099763f99101be8e96949b7ba07d192e8a9b7e9db37ed1eb111309e78f1c"
       },
-      "expiry": 1660331892923
+      "expiry": 1660666128614
     },
     "/usr/local/bin/python3.9.v3": {
       "data": {
@@ -51,7 +51,7 @@
         "sysPrefix": "/usr/local/opt/python@3.9/Frameworks/Python.framework/Versions/3.9",
         "fileHash": "9ef73a30c9a7fbb7825fed3d98f9c8a135965cf974ac612a5fd835205e709f452befba482ede3cabfc2ae47cc3ec8238dfc3ddf0273894b961a9ae47776caccc"
       },
-      "expiry": 1660331892920
+      "expiry": 1660666128613
     },
     "/usr/local/opt/python@3.9/bin/python3.9.v3": {
       "data": {
@@ -76,7 +76,7 @@
         "sysPrefix": "/usr/local/opt/python@3.9/Frameworks/Python.framework/Versions/3.9",
         "fileHash": "9cbc77197707b2e0646240b2850adc014ddb74b699a525c6d776b17e6ba78ebb1794da45add39df65e1f8cd803da09706caa10f328c480d9e6c7de800ad0d75c"
       },
-      "expiry": 1660331893043
+      "expiry": 1660666128607
     },
     "INTERPRETERS_CACHE_v3_CurrentPathService": [
       {
@@ -177,14 +177,14 @@
           "displayName": "Python 3.9.13 64-bit"
         }
       },
-      "expiry": 1660331893048
+      "expiry": 1660666128710
     },
     "/usr/local/opt/python@3.9/bin/python3.9.interpreter.displayName.v7": {
       "data": {
         "displayName": "Python 3.9.13 64-bit",
         "hash": "9cbc77197707b2e0646240b2850adc014ddb74b699a525c6d776b17e6ba78ebb1794da45add39df65e1f8cd803da09706caa10f328c480d9e6c7de800ad0d75c-e57e3e3447694959bd943d48bc4d3a44"
       },
-      "expiry": 1660331893044
+      "expiry": 1660666128706
     },
     "/usr/bin/python3.v3": {
       "data": {
@@ -209,7 +209,7 @@
         "sysPrefix": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.8",
         "fileHash": "76b4fa1af3b2ec60388f4030e3eb95151b642b95e6b126bd5d3574ac8302d2369fb1708ca0dfeef67dcba36bb0069a51569f5feb44ed4f208d9a57c59bbe8202"
       },
-      "expiry": 1660331893280
+      "expiry": 1660666145537
     },
     "INTERPRETERS_CACHE_v3_KnownPathsService": [
       {
@@ -357,14 +357,14 @@
         "displayName": "Python 3.9.13 64-bit",
         "hash": "7eeadbbd793a971dd841a3336ded8eff9ded04a5759687dd53e74d03c9be30ea9462099763f99101be8e96949b7ba07d192e8a9b7e9db37ed1eb111309e78f1c-e1cfa10ff3c05ca8725edc0c758396d4"
       },
-      "expiry": 1660189782019
+      "expiry": 1660666198559
     },
     "/usr/bin/python3.interpreter.displayName.v7": {
       "data": {
         "displayName": "Python 3.8.9 64-bit",
         "hash": "76b4fa1af3b2ec60388f4030e3eb95151b642b95e6b126bd5d3574ac8302d2369fb1708ca0dfeef67dcba36bb0069a51569f5feb44ed4f208d9a57c59bbe8202-f54a03e4a36b9bd5a4575059fd44f01b"
       },
-      "expiry": 1660189782023
+      "expiry": 1660666198562
     },
     "InterpreterAutoSeletionRule-system": {
       "architecture": 3,
@@ -418,7 +418,7 @@
           "displayName": "Python 3.9.13 64-bit"
         }
       },
-      "expiry": 1660189782038
+      "expiry": 1660666198572
     },
     "/usr/bin/python3.interpreter.Details.v7": {
       "data": {
@@ -448,7 +448,7 @@
           "displayName": "Python 3.8.9 64-bit"
         }
       },
-      "expiry": 1660189782042
+      "expiry": 1660666198577
     },
     "InterpreterAutoSeletionRule-cachedInterpreters": {
       "architecture": 3,
@@ -472,7 +472,6 @@
       "sysPrefix": "/usr/local/opt/python@3.9/Frameworks/Python.framework/Versions/3.9",
       "fileHash": "9cbc77197707b2e0646240b2850adc014ddb74b699a525c6d776b17e6ba78ebb1794da45add39df65e1f8cd803da09706caa10f328c480d9e6c7de800ad0d75c",
       "type": "Unknown",
-      "cachedEntry": true,
       "displayName": "Python 3.9.13 64-bit"
     },
     "ProposeLSBanner": false
@@ -539,6 +538,35 @@
     "INTERPRETERS_CACHE_v3_PipEnvService:493e1a5d89f714b810cac683e70536ec": [],
     "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:493e1a5d89f714b810cac683e70536ec": [],
     "autoSelectedWorkspacePythonInterpreter-/Users/adrian/Documents/Coding_🖥/python/Automatizaciones_py/Music": {
+      "architecture": 3,
+      "path": "/usr/local/opt/python@3.9/bin/python3.9",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.9.13-final",
+        "major": 3,
+        "minor": 9,
+        "patch": 13,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.9.13-final"
+      },
+      "sysPrefix": "/usr/local/opt/python@3.9/Frameworks/Python.framework/Versions/3.9",
+      "fileHash": "9cbc77197707b2e0646240b2850adc014ddb74b699a525c6d776b17e6ba78ebb1794da45add39df65e1f8cd803da09706caa10f328c480d9e6c7de800ad0d75c",
+      "type": "Unknown"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/Users/adrian/Desktop": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:7f4c102626f312a3cd82d1c621826ce3": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:7f4c102626f312a3cd82d1c621826ce3": [],
+    "autoSelectedWorkspacePythonInterpreter-/Users/adrian/Desktop": {
       "architecture": 3,
       "path": "/usr/local/opt/python@3.9/bin/python3.9",
       "version": {
