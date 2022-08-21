@@ -4,8 +4,13 @@ set nu
 "Tab 
 set expandtab
 set shiftwidth=4
+
+" tabs 
+nnoremap :t :tabedit
+nnoremap :tq<Enter> <C-w>q
+
 " scroll on 8 lines 
-set scrolloff=8
+set scrolloff=15
 
 "cursor line
 set cursorline
@@ -15,7 +20,9 @@ set noswapfile
 
 " split commands
 nnoremap :s :vsplit
-nnoremap :hs :split
+nnoremap :hs  :split
+nnoremap :sq <C-w>q
+
 "plugin utilization
 call plug#begin('~/.config/nvim/autoload')
 Plug 'preservim/nerdtree'
