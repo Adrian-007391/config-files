@@ -13,6 +13,9 @@ set cursorline
 " no swap files 
 set noswapfile
 
+" split commands
+nnoremap :s :vsplit
+nnoremap :hs :split
 "plugin utilization
 call plug#begin('~/.config/nvim/autoload')
 Plug 'preservim/nerdtree'
