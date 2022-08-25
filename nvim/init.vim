@@ -6,8 +6,7 @@ set expandtab
 set shiftwidth=4
 
 " tabs 
-nnoremap :t :tabedit
-nnoremap :tq<Enter> <C-w>q
+noremap <C-TAB> :tabnext
 
 " scroll on 8 lines 
 set scrolloff=15
@@ -18,20 +17,15 @@ set cursorline
 " no swap files 
 set noswapfile
 
-" split commands
-nnoremap :s :vsplit
-nnoremap :hs  :split
-nnoremap :sq <C-w>q
-
 "plugin utilization
 call plug#begin('~/.config/nvim/autoload')
 Plug 'preservim/nerdtree'
 Plug 'terryma/vim-multiple-cursors'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'reconquest/vim-pythonx'
 call plug#end()
 "command mapping (save and save-quit)
-noremap <C-s> :w <Enter>
 nnoremap <C-Enter> :wqa <Enter>
 
 "Command mapping fzf
