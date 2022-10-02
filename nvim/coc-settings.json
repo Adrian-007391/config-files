@@ -1,1 +1,3 @@
-{"coc.preferences.formatOnSaveFiletypes": ["python","css", "markdown","javascript","javascriptreact","typescript","typescriptreact","jsn","graphql","handlebars"]}
+{
+  "coc.preferences.formatOnSaveFiletypes": ["css", "markdown" , "typescript" , "typescriptreact" , "json"]
+}
