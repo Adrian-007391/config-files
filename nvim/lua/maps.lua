@@ -7,7 +7,7 @@ end
 
 
 -- sppace + enter to leave neovim
-Nnoremap("<leader><Enter>" , ":wqa <Enter>")
+Nnoremap("<leader><Enter>" ,"<cmd>wqa<cr>")
 
 -- control + w to leave terminal
 Tnoremap("<C-w>" ,"<C-\\><C-n>" )
