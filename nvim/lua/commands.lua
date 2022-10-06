@@ -9,3 +9,5 @@ end
 Cmd("C" , "cd ~/.config/nvim <bar> Telescope find_files" , 0)
 Cmd("Q" ,"w <bar> qa!")
 Cmd("W","w")
+Cmd("V","vsplit <bar> Telescope find_files")
+Cmd("S","split <bar> Telescope find_files")
