@@ -36,6 +36,6 @@ o.clipboard = "unnamedplus"
 
 -- set cursor 
 w.cursorline= true
-o.scrolloff=8
+o.scrolloff=16
 
 
