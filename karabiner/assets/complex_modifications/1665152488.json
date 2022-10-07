@@ -142,21 +142,16 @@
       ]
     },
     {
-      "description": "Hyper + W to move forward 1 word",
+      "description": "CMD + W to NOTHING",
       "manipulators": [
         {
           "from": {
             "key_code": "w",
             "modifiers": {
-              "mandatory": ["caps_lock"]
+              "mandatory": ["left_command"]
             }
           },
-          "to": [
-            {
-              "key_code":"right_arrow",
-              "modifiers":["option"]
-            }
-          ]
+          "to": [],
           "type": "basic"
         }
       ]
