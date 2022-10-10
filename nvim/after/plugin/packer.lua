@@ -27,5 +27,5 @@ return require('packer').startup(function(use)
   use 'L3MON4D3/LuaSnip' -- Snippets plugin
   use {
     "windwp/nvim-autopairs",
-  }
+  }-- autopairs plugin
 end)
