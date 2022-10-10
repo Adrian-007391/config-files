@@ -17,6 +17,30 @@
                 },
                 "rules": [
                     {
+                        "description":"Hyper + arrows = move desktops",
+                        "manipulators":[
+                            {
+                                "from":{
+                                    "key_code":"left_arrow",
+                                    "modifiers":{
+                                        "mandatory":[
+                                            "left_command",
+                                            "left_shift",
+                                            "left_control",
+                                            "left option"
+                                        ]
+                                    }
+                                },
+                                "to":[
+                                    {
+                                        "key_code": "left_arrow",
+                                        "modifiers":"left_control"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                    ,{
                         "description": "Toggle caps_lock by pressing left_shift then right_shift",
                         "manipulators": [
                             {

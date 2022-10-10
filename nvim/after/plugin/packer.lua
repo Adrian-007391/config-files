@@ -7,7 +7,8 @@ vim.cmd [[packadd packer.nvim]]
 return require('packer').startup(function(use)
   use 'neovim/nvim-lspconfig' -- lsp
   --use { "catppuccin/nvim", as = "catppuccin" } -- catppucchin theme 
-  use 'overcache/NeoSolarized' --neosolarized theme
+--  use 'overcache/NeoSolarized' --neosolarized theme
+  use 'navarasu/onedark.nvim'
   use 'wbthomason/packer.nvim' -- package manager
   use {
     'nvim-telescope/telescope.nvim', tag = '0.1.0',

@@ -9,7 +9,7 @@ o.relativenumber = true
 
 
 --colorscheme
-cmd("colorscheme NeoSolarized")
+cmd("colorscheme onedark")
 
 
 -- set leader key
