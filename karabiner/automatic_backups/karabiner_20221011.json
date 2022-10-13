@@ -17,13 +17,13 @@
                 },
                 "rules": [
                     {
-                        "description": "Hyper + arrows = move desktops",
-                        "manipulators": [
+                        "description":"Hyper + arrows = move desktops",
+                        "manipulators":[
                             {
-                                "from": {
-                                    "key_code": "left_arrow",
-                                    "modifiers": {
-                                        "mandatory": [
+                                "from":{
+                                    "key_code":"left_arrow",
+                                    "modifiers":{
+                                        "mandatory":[
                                             "left_command",
                                             "left_shift",
                                             "left_control",
@@ -31,16 +31,16 @@
                                         ]
                                     }
                                 },
-                                "to": [
+                                "to":[
                                     {
                                         "key_code": "left_arrow",
-                                        "modifiers": "left_control"
+                                        "modifiers":"left_control"
                                     }
                                 ]
                             }
                         ]
-                    },
-                    {
+                    }
+                    ,{
                         "description": "Toggle caps_lock by pressing left_shift then right_shift",
                         "manipulators": [
                             {
@@ -288,8 +288,8 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "right_arrow",
-                                        "modifiers": [
+                                        "key_code":"right_arrow",
+                                        "modifiers":[
                                             "left_option"
                                         ]
                                     }
@@ -298,6 +298,7 @@
                             }
                         ]
                     },
+
                     {
                         "description": "HYPER + B TO GO BACKWARDS 1 WORD",
                         "manipulators": [
@@ -315,8 +316,8 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "left_arrow",
-                                        "modifiers": [
+                                        "key_code":"left_arrow",
+                                        "modifiers":[
                                             "left_option"
                                         ]
                                     }
@@ -394,34 +395,6 @@
                         "vendor_id": 1133
                     },
                     "ignore": false,
-                    "manipulate_caps_lock_led": true,
-                    "simple_modifications": [],
-                    "treat_as_built_in_keyboard": false
-                },
-                {
-                    "disable_built_in_keyboard_if_exists": false,
-                    "fn_function_keys": [],
-                    "identifiers": {
-                        "is_keyboard": true,
-                        "is_pointing_device": true,
-                        "product_id": 45915,
-                        "vendor_id": 1133
-                    },
-                    "ignore": false,
-                    "manipulate_caps_lock_led": true,
-                    "simple_modifications": [],
-                    "treat_as_built_in_keyboard": false
-                },
-                {
-                    "disable_built_in_keyboard_if_exists": false,
-                    "fn_function_keys": [],
-                    "identifiers": {
-                        "is_keyboard": true,
-                        "is_pointing_device": true,
-                        "product_id": 45091,
-                        "vendor_id": 1133
-                    },
-                    "ignore": true,
                     "manipulate_caps_lock_led": true,
                     "simple_modifications": [],
                     "treat_as_built_in_keyboard": false
