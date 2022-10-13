@@ -1,5 +1,5 @@
 local nvim_lsp = require('lspconfig')
-local servers = {'tsserver','clangd','luau_lsp'} -- agrega tus servidores aqui
+local servers = {'tsserver','clangd','luau_lsp','angularls'} -- agrega tus servidores aqui
 
 
 local capabilities = vim.lsp.protocol.make_client_capabilities()
