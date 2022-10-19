@@ -7,6 +7,9 @@ local w = vim.wo
 o.number = true
 o.relativenumber = true
 
+--mouse 
+o.mouse = "a"
+
 
 --colorscheme
 cmd("colorscheme gruvbox")
