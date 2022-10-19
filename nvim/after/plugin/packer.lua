@@ -8,7 +8,8 @@ return require('packer').startup(function(use)
   use 'neovim/nvim-lspconfig' -- lsp
   use { "catppuccin/nvim", as = "catppuccin" } -- catppucchin theme 
  use 'overcache/NeoSolarized' --neosolarized theme
-  use 'navarasu/onedark.nvim'
+  use 'navarasu/onedark.nvim' -- onedark theme 
+  use { "ellisonleao/gruvbox.nvim" } --gruvbox theme
   use 'wbthomason/packer.nvim' -- package manager
   use {
     'nvim-telescope/telescope.nvim', tag = '0.1.0',
