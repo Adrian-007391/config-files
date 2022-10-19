@@ -9,8 +9,7 @@ o.relativenumber = true
 
 
 --colorscheme
-cmd("colorscheme onedark")
-
+cmd("colorscheme gruvbox")
 
 -- set leader key
 
