@@ -13,11 +13,14 @@ require('telescope').setup{
     },
     buffers= {
       theme = "dropdown"
+    },
+    themes = {
+      theme = "dropdown"
     }
   },
   extensions = {
     file_browser={
-      theme = "dropdown",
+      path="%:p:h",
       mappings={
         ["n"] = {
           -- remap to going to home directory
@@ -34,5 +37,4 @@ Nnoremap("<leader>ff" ,"<cmd>Telescope find_files<cr>" )
 Nnoremap("<leader>hh" ,"<cmd>Telescope colorscheme<cr> " )
 Nnoremap("<leader>bb" ,"<cmd>Telescope buffers<cr> " )
 Nnoremap("<leader>fb" , "<cmd>Telescope file_browser<cr> <Esc>")
-
 
