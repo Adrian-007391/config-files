@@ -1,3 +1,3 @@
-function c --wraps=clear --description 'alias c=clear'
-  clear $argv; 
+function C --wraps='cd ~/.config' --description 'alias C=cd ~/.config'
+  cd ~/.config $argv; 
 end
