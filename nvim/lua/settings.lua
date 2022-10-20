@@ -10,6 +10,9 @@ o.relativenumber = true
 --mouse 
 o.mouse = "a"
 
+-- cursor
+o.guicursor =""
+
 
 --colorscheme
 cmd("colorscheme gruvbox")
