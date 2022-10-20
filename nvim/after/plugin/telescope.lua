@@ -21,6 +21,8 @@ require('telescope').setup{
   extensions = {
     file_browser={
       path="%:p:h",
+      initial_mode = "normal",
+      hijack_netrw = true,
       mappings={
         ["n"] = {
           -- remap to going to home directory
@@ -36,5 +38,5 @@ require("telescope").load_extension "file_browser"
 Nnoremap("<leader>ff" ,"<cmd>Telescope find_files<cr>" )
 Nnoremap("<leader>hh" ,"<cmd>Telescope colorscheme<cr> " )
 Nnoremap("<leader>bb" ,"<cmd>Telescope buffers<cr> " )
-Nnoremap("<leader>fb" , "<cmd>Telescope file_browser<cr> <Esc>")
+Nnoremap("<leader>fb" , "<cmd>Telescope file_browser<cr>")
 
