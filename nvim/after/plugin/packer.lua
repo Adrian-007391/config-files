@@ -7,9 +7,11 @@ vim.cmd [[packadd packer.nvim]]
 return require('packer').startup(function(use)
   use 'neovim/nvim-lspconfig' -- lsp
   use { "catppuccin/nvim", as = "catppuccin" } -- catppucchin theme 
- use 'overcache/NeoSolarized' --neosolarized theme
+  use 'overcache/NeoSolarized' --neosolarized theme
   use 'navarasu/onedark.nvim' -- onedark theme 
   use { "ellisonleao/gruvbox.nvim" } --gruvbox theme
+  use 'shaunsingh/nord.nvim'
+--  use 'RRethy/nvim-base16'-- theme manager
   use 'wbthomason/packer.nvim' -- package manager
   use {
     'nvim-telescope/telescope.nvim', tag = '0.1.0',
@@ -29,4 +31,10 @@ return require('packer').startup(function(use)
   use {
     "windwp/nvim-autopairs",
   }-- autopairs plugin
+  use {
+    'numToStr/Comment.nvim',
+    config = function()
+      require('Comment').setup()
+    end
+  }
 end)

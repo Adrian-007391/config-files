@@ -15,7 +15,7 @@ o.guicursor =""
 
 
 --colorscheme
-cmd("colorscheme gruvbox")
+cmd("colorscheme nord")
 
 -- set leader key
 
