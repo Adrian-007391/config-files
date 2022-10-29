@@ -4,7 +4,7 @@ vim.o.relativenumber=true
 -- leader key 
 vim.g.mapleader=" "
 -- colorscheme
-vim.api.nvim_command [[colorscheme nord]]
+vim.api.nvim_command [[colorscheme onedark]]
 -- tabs
 vim.o.tabstop = 4
 vim.o.shiftwidth = 4
