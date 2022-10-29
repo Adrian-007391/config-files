@@ -10,6 +10,9 @@ end
 function m.vnoremap(key , command)
 	vim.api.nvim_set_keymap('v', key , command , options)
 end 
+function m.tnoremap(key , command)
+	vim.api.nvim_set_keymap('t', key , command , options)
+end 
 
 return m
 

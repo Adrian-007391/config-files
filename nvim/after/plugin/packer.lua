@@ -8,10 +8,28 @@ return require('packer').startup(function(use)
   use 'wbthomason/packer.nvim'
   -- nord theme
   use 'shaunsingh/nord.nvim'
+  -- onedark theme 
+  use 'joshdick/onedark.vim'
   -- Telescope
   use {
   'nvim-telescope/telescope.nvim', tag = '0.1.0',
 -- or                            , branch = '0.1.x',
   requires = { {'nvim-lua/plenary.nvim'} }
+}
+use 'neovim/nvim-lspconfig' -- Configurations for Nvim LSP
+--cmp plugins
+use 'hrsh7th/cmp-nvim-lua'
+use 'hrsh7th/cmp-nvim-lsp'
+use 'hrsh7th/cmp-buffer'
+use 'hrsh7th/cmp-path'
+use 'hrsh7th/cmp-cmdline'
+use 'hrsh7th/nvim-cmp'
+-- end of cmp plugins
+use "L3MON4D3/LuaSnip"  -- snippets plugin (cmp won't work without this)
+-- autopairs 
+use 'jiangmiao/auto-pairs'
+use {
+  'nvim-lualine/lualine.nvim',
+  requires = { 'kyazdani42/nvim-web-devicons', opt = true }
 }
 end)
