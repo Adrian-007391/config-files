@@ -10,4 +10,5 @@ mf.tnoremap('<C-w>','<C-\\><C-n>')
 mf.nnoremap('<leader>a','<Cmd>vertical resize +5<CR>')
 mf.nnoremap('<leader>s','<Cmd>vertical resize -5<CR>')
 mf.nnoremap('<leader>A','<Cmd>resize +5<CR>')
+mf.nnoremap('<leader>S','<Cmd>resize -5<CR>')
 
