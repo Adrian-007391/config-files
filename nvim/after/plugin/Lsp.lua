@@ -40,16 +40,16 @@ end
 	
 
     sources = cmp.config.sources({
-		{ name = 'nvim_lsp' },
+		{name = 'nvim_lsp' },
 		{name = 'buffer'},
 		{name = 'path'},
 		{name = 'nvim-lua'},
 		--{ name = 'vsnip' }, -- For vsnip users.
-		{ name = 'luasnip' }, -- For luasnip users.
+		{name = 'luasnip' }, -- For luasnip users.
 		-- { name = 'ultisnips' }, -- For ultisnips users.
 		-- { name = 'snippy' }, -- For snippy users.
 	}, {
-		{ name = 'buffer' },
+		{name = 'buffer' },
 	})
 })
 
@@ -84,7 +84,7 @@ end
 local capabilities = require('cmp_nvim_lsp').default_capabilities()
 
 -- add servers here
-local servers = {'clangd','tsserver'}
+local servers = {'clangd','tsserver','astro','html','cssls'}
 
 for _,server in ipairs(servers) do 
 	require'lspconfig'[server].setup{
