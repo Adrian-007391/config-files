@@ -84,6 +84,11 @@ _G.packer_plugins = {
     path = "/Users/adrian/.local/share/nvim/site/pack/packer/start/auto-pairs",
     url = "https://github.com/jiangmiao/auto-pairs"
   },
+  ["bufferline.nvim"] = {
+    loaded = true,
+    path = "/Users/adrian/.local/share/nvim/site/pack/packer/start/bufferline.nvim",
+    url = "https://github.com/akinsho/bufferline.nvim"
+  },
   ["cmp-buffer"] = {
     loaded = true,
     path = "/Users/adrian/.local/share/nvim/site/pack/packer/start/cmp-buffer",
@@ -114,10 +119,10 @@ _G.packer_plugins = {
     path = "/Users/adrian/.local/share/nvim/site/pack/packer/start/lualine.nvim",
     url = "https://github.com/nvim-lualine/lualine.nvim"
   },
-  ["nord.nvim"] = {
+  ["night-owl.nvim"] = {
     loaded = true,
-    path = "/Users/adrian/.local/share/nvim/site/pack/packer/start/nord.nvim",
-    url = "https://github.com/shaunsingh/nord.nvim"
+    path = "/Users/adrian/.local/share/nvim/site/pack/packer/start/night-owl.nvim",
+    url = "https://github.com/Julpikar/night-owl.nvim"
   },
   ["nvim-cmp"] = {
     loaded = true,
@@ -129,16 +134,15 @@ _G.packer_plugins = {
     path = "/Users/adrian/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
     url = "https://github.com/neovim/nvim-lspconfig"
   },
-  ["nvim-web-devicons"] = {
-    loaded = false,
-    needs_bufread = false,
-    path = "/Users/adrian/.local/share/nvim/site/pack/packer/opt/nvim-web-devicons",
-    url = "https://github.com/kyazdani42/nvim-web-devicons"
-  },
-  ["onedark.vim"] = {
+  ["nvim-treesitter"] = {
     loaded = true,
-    path = "/Users/adrian/.local/share/nvim/site/pack/packer/start/onedark.vim",
-    url = "https://github.com/joshdick/onedark.vim"
+    path = "/Users/adrian/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
+    url = "https://github.com/nvim-treesitter/nvim-treesitter"
+  },
+  ["nvim-web-devicons"] = {
+    loaded = true,
+    path = "/Users/adrian/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
+    url = "https://github.com/kyazdani42/nvim-web-devicons"
   },
   ["packer.nvim"] = {
     loaded = true,
