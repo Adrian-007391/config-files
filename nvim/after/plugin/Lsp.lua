@@ -5,7 +5,7 @@ local on_attach = function(client)
 	if client.server_capabilities.documentFormattingProvider then 
 		vim.api.nvim_command[[augroup Format]]
 		vim.api.nvim_command[[autocmd! * <buffer>]]
-		vim.api.nvim_command[[autocmd BufWritePre <buffer> lua vim.lsp.buf.formatting_seq_sync()]]
+		vim.api.nvim_command[[autocmd BufWritePre <buffer> lua vim.lsp.buf.format()]]
 		vim.api.nvim_command[[augroup END]]
 	end
 	mf.nnoremap('gd','<Cmd>lua vim.lsp.buf.definition()<Cr>')
@@ -92,8 +92,4 @@ for _,server in ipairs(servers) do
 		capabilities = capabilities
 	}
 end
-
-
-
-
 
