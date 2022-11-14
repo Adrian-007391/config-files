@@ -4,7 +4,7 @@ vim.o.relativenumber=true
 -- leader key 
 vim.g.mapleader=" "
 -- colorscheme
-vim.api.nvim_command [[colorscheme night-owl]]
+vim.api.nvim_command [[colorscheme onedark]]
 
 vim.opt.guicursor =""
 vim.opt.cursorline = true

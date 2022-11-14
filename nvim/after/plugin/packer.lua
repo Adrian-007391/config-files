@@ -9,7 +9,7 @@ return require('packer').startup(function(use)
 	-- nord theme
 --	use 'shaunsingh/nord.nvim'
 	-- onedark theme 
---	use 'joshdick/onedark.vim'
+	use 'joshdick/onedark.vim'
 	-- catpuccin theme
 --	use {
 --		"catppuccin/nvim",
@@ -21,7 +21,9 @@ return require('packer').startup(function(use)
 --		end
 --	}
 	-- night owl theme 
-	use 'Julpikar/night-owl.nvim'
+--	use 'Julpikar/night-owl.nvim'
+	--	Neosolarized 
+--		use 'Tsuzat/NeoSolarized.nvim'
 	-- Telescope
 	use {
 		'nvim-telescope/telescope.nvim', tag = '0.1.0',
@@ -39,7 +41,6 @@ return require('packer').startup(function(use)
 	-- end of cmp plugins
 	use "L3MON4D3/LuaSnip"  -- snippets plugin (cmp won't work without this)
 	-- autopairs 
-	use 'jiangmiao/auto-pairs'
 	use  'kyazdani42/nvim-web-devicons' -- icons
 	use {
 		'nvim-lualine/lualine.nvim',
@@ -47,6 +48,10 @@ return require('packer').startup(function(use)
 	}
 	-- using packer.nvim
 	use {'akinsho/bufferline.nvim', tag = "v3.*", requires = 'kyazdani42/nvim-web-devicons'}
-	use 'nvim-treesitter/nvim-treesitter'
+	use {'nvim-treesitter/nvim-treesitter',
+			run = ':TSUpdate'}
 	use 'christoomey/vim-tmux-navigator'
+	use {'windwp/nvim-autopairs', config=function() require('nvim-autopairs').setup{}end}
+	use {'windwp/nvim-ts-autotag', config=function() require('nvim-ts-autotag').setup{}end}
+
 end)
