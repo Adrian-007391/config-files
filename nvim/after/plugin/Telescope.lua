@@ -1,12 +1,12 @@
-local ok,telescope = pcall(require,"telescope")
+local ok, telescope = pcall(require, "telescope")
 if not ok then
-    return 
-end 
+    return
+end
 
-local nnoremap=require("Adrian.keymaps").nnoremap
+local nnoremap = require("Adrian.keymaps").nnoremap
 
 telescope.setup()
 require('telescope').load_extension('fzf')
 
-nnoremap("<leader>ff",function() require("telescope.builtin").find_files() end)
-
+nnoremap("<leader>ff", function() require("telescope.builtin").find_files() end)
+nnoremap("<leader>hh", function() require("telescope.builtin").help_tags() end)

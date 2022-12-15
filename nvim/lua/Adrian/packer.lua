@@ -22,8 +22,18 @@ return require('packer').startup(function(use)
     use('hrsh7th/cmp-path')
     use('hrsh7th/cmp-cmdline')
     use('hrsh7th/nvim-cmp')
-    use('L3MON4D3/LuaSnip')
+    use({ "L3MON4D3/LuaSnip", tag = "v1.1.0" })
     use('saadparwaiz1/cmp_luasnip')
     use 'bluz71/vim-nightfly-colors'
     use('christoomey/vim-tmux-navigator')
+    use { 'dsznajder/vscode-es7-javascript-react-snippets',
+        run = 'yarn install --frozen-lockfile && yarn compile'
+    }
+    use {
+        'numToStr/Comment.nvim',
+        config = function()
+            require('Comment').setup()
+        end
+    }
+
 end)

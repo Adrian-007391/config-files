@@ -14,3 +14,5 @@ vim.opt.expandtab = true
 vim.opt.wrap = false
 
 vim.cmd [[colorscheme nightfly]]
+
+vim.opt.clipboard = "unnamedplus"
