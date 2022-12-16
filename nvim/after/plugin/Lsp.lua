@@ -88,6 +88,8 @@ cmp.setup.cmdline(':', {
 local capabilities = require('cmp_nvim_lsp').default_capabilities()
 
 -- add servers here
+require("mason").setup()
+require("mason-lspconfig").setup()
 local servers = { 'clangd', 'tsserver', 'astro', 'html', 'cssls', 'sumneko_lua', 'tailwindcss', 'rust_analyzer' }
 
 for _, server in ipairs(servers) do

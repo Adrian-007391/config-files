@@ -16,12 +16,17 @@ return require('packer').startup(function(use)
     })
     use("p00f/nvim-ts-rainbow")
     use("windwp/nvim-ts-autotag")
-    use('neovim/nvim-lspconfig')
+    use {
+        "williamboman/mason.nvim",
+        "williamboman/mason-lspconfig.nvim",
+        "neovim/nvim-lspconfig",
+    }
     use('hrsh7th/cmp-nvim-lsp')
     use('hrsh7th/cmp-buffer')
     use('hrsh7th/cmp-path')
     use('hrsh7th/cmp-cmdline')
     use('hrsh7th/nvim-cmp')
+    use('hrsh7th/cmp-nvim-lua')
     use({ "L3MON4D3/LuaSnip", tag = "v1.1.0" })
     use('saadparwaiz1/cmp_luasnip')
     use 'bluz71/vim-nightfly-colors'
