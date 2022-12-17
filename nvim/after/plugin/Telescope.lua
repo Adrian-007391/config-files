@@ -1,12 +1,9 @@
-local ok, telescope = pcall(require, "telescope")
-if not ok then
-    return
+local ok , builtin = pcall(require,"telescope.builtin")
+if not ok then 
+    return 
 end
 
-local nnoremap = require("Adrian.keymaps").nnoremap
+vim.keymap.set('n','<leader>pf',builtin.find_files,{})
+vim.keymap.set('n','<leader>pg',builtin.live_grep,{})
+vim.keymap.set('n','<leader>ph',builtin.help_tags,{})
 
-telescope.setup()
-require('telescope').load_extension('fzf')
-
-nnoremap("<leader>ff", function() require("telescope.builtin").find_files() end)
-nnoremap("<leader>hh", function() require("telescope.builtin").help_tags() end)
