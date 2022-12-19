@@ -3,13 +3,20 @@ vim.cmd("packadd packer.nvim")
 return require('packer').startup(function(use)
     -- Packer can manage itself
     use('wbthomason/packer.nvim')
+    -- Telescope (fuzzy finder)
     use {
         'nvim-telescope/telescope.nvim', tag = '0.1.0',
         -- or                            , branch = '0.1.x',
         requires = { { 'nvim-lua/plenary.nvim' } }
     }
+
+    -- harpoon (makes nav to key files easier)
     use { 'ThePrimeagen/harpoon', requires = { 'nvim-lua/plenary.nvim' } }
+
+    -- nightfox (theme package)
     use "EdenEast/nightfox.nvim"
+
+    -- treesitter (Parser)
     use {
         'nvim-treesitter/nvim-treesitter',
         run = function()
@@ -17,6 +24,8 @@ return require('packer').startup(function(use)
             ts_update()
         end,
     }
+
+    -- Lsp zero (lsp)
     use {
         'VonHeikemen/lsp-zero.nvim',
         requires = {
@@ -39,12 +48,16 @@ return require('packer').startup(function(use)
         }
     }
 
+    -- toggle diagnostics (turns on/off diagnostics)
     use('WhoIsSethDaniel/toggle-lsp-diagnostics.nvim')
+    -- Autopairs (makes pairs of parenthesis, brackets, etc.)
     use({
         "windwp/nvim-autopairs",
         config = function() require("nvim-autopairs").setup {} end
     })
+    -- autotag (makes html tags automatically)
     use("windwp/nvim-ts-autotag")
+    -- rainbow (colors parenthesis, brackets, etc. to identify pairs)
     use("p00f/nvim-ts-rainbow")
 
 
