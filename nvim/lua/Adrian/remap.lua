@@ -10,3 +10,6 @@ vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
 
 -- quit nvim
 vim.keymap.set("n", "<leader><Enter>", vim.cmd.wqa)
+
+-- double escape to remove highlights from search
+vim.keymap.set("n", "<Esc><Esc>", vim.cmd.nohl)
