@@ -16,6 +16,9 @@ return require('packer').startup(function(use)
     -- nightfox (theme package)
     use "EdenEast/nightfox.nvim"
 
+    -- catpuccin
+    use { "catppuccin/nvim", as = "catppuccin" }
+
     -- treesitter (Parser)
     use {
         'nvim-treesitter/nvim-treesitter',
@@ -60,5 +63,9 @@ return require('packer').startup(function(use)
     -- rainbow (colors parenthesis, brackets, etc. to identify pairs)
     use("p00f/nvim-ts-rainbow")
 
-
+    -- lualine
+    use {
+        'nvim-lualine/lualine.nvim',
+        requires = { 'kyazdani42/nvim-web-devicons', opt = true },
+    }
 end)
