@@ -11,3 +11,7 @@ vim.opt.smartindent = true
 
 -- clipboard
 vim.opt.clipboard = "unnamedplus"
+
+-- no swapfile
+vim.opt.swapfile = false
+vim.opt.backup = false
