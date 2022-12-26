@@ -68,4 +68,9 @@ return require('packer').startup(function(use)
         'nvim-lualine/lualine.nvim',
         requires = { 'kyazdani42/nvim-web-devicons', opt = true },
     }
+
+    -- tmux navigator
+    use("christoomey/vim-tmux-navigator")
+    -- lunarvim theme
+    use("LunarVim/lunar.nvim")
 end)
