@@ -11,6 +11,4 @@ lsp.on_attach(function(client, bufnr)
     end
 end)
 
-
-
 lsp.setup()
