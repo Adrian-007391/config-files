@@ -129,6 +129,11 @@ _G.packer_plugins = {
     path = "/Users/adrianeduardotrevinopena/.local/share/nvim/site/pack/packer/start/lualine.nvim",
     url = "https://github.com/nvim-lualine/lualine.nvim"
   },
+  ["lunar.nvim"] = {
+    loaded = true,
+    path = "/Users/adrianeduardotrevinopena/.local/share/nvim/site/pack/packer/start/lunar.nvim",
+    url = "https://github.com/LunarVim/lunar.nvim"
+  },
   ["mason-lspconfig.nvim"] = {
     loaded = true,
     path = "/Users/adrianeduardotrevinopena/.local/share/nvim/site/pack/packer/start/mason-lspconfig.nvim",
@@ -200,6 +205,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/adrianeduardotrevinopena/.local/share/nvim/site/pack/packer/start/toggle-lsp-diagnostics.nvim",
     url = "https://github.com/WhoIsSethDaniel/toggle-lsp-diagnostics.nvim"
+  },
+  ["vim-tmux-navigator"] = {
+    loaded = true,
+    path = "/Users/adrianeduardotrevinopena/.local/share/nvim/site/pack/packer/start/vim-tmux-navigator",
+    url = "https://github.com/christoomey/vim-tmux-navigator"
   }
 }
 
