@@ -20,3 +20,6 @@ vim.keymap.set("v", "<C-s>", ":s/")
 -- <C-d> and <C-u> to center cursor
 vim.keymap.set("n", "<C-d>", "<C-d>zz")
 vim.keymap.set("n", "<C-u>", "<C-u>zz")
+
+-- lazygit (too lazy to make its own config file)
+vim.keymap.set("n", "<leader>lg", vim.cmd.LazyGit)

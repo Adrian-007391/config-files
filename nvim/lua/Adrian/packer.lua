@@ -73,4 +73,5 @@ return require('packer').startup(function(use)
     use("christoomey/vim-tmux-navigator")
     -- lunarvim theme
     use("LunarVim/lunar.nvim")
+    use("kdheepak/lazygit.nvim")
 end)
