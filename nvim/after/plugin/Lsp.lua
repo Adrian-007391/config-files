@@ -13,6 +13,7 @@ lsp.on_attach(function(client, bufnr)
         command = "lua vim.lsp.buf.hover()",
         group = "Preview"
     })
+    vim.api.nvim_create_augroup("END", { clear = true })
 
 
 end)
