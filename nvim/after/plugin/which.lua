@@ -15,7 +15,7 @@ wk.register({
     },
     l        = {
         name = "lazy git",
-        { g = { "<Cmd>LazyGit<Cr>", "laxy git" } }
+        { g = { "<Cmd>LazyGit<Cr>", "lazy git" } }
 
 
     },
