@@ -1,6 +1,6 @@
 vim.cmd("packadd packer.nvim")
 
-return require('packer').startup(function(use)
+return require('packer').startup({ function(use)
     -- Packer can manage itself
     use('wbthomason/packer.nvim')
     -- Telescope (fuzzy finder)
@@ -74,4 +74,14 @@ return require('packer').startup(function(use)
     -- lunarvim theme
     use("LunarVim/lunar.nvim")
     use("kdheepak/lazygit.nvim")
-end)
+    use("numToStr/Comment.nvim")
+    -- Lua
+    use {
+        "folke/which-key.nvim",
+    }
+end,
+    config = {
+        display = {
+            open_fn = require('packer.util').float
+        }
+    } })
