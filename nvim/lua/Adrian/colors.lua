@@ -9,4 +9,4 @@ function ColorMyPencils(color, isTransparentBackground)
     end
 end
 
-ColorMyPencils(_, true)
+ColorMyPencils("carbonfox", false)
