@@ -4,17 +4,16 @@ lsp.preset('recommended')
 
 lsp.on_attach(function(client, bufnr)
     if client.server_capabilities.documentFormattingProvider then
-        vim.api.nvim_command [[augroup Format]]
-        vim.api.nvim_command [[autocmd BufWritePre <buffer> lua vim.lsp.buf.format()]]
-        vim.api.nvim_command [[augroup END]]
+        vim.api.nvim_create_augroup("Format", { clear = true })
+        vim.api.nvim_create_autocmd("BufWritePre", { group = "Format", callback = function() vim.lsp.buf.format() end })
     end
     vim.api.nvim_create_augroup("Preview", { clear = true })
     vim.api.nvim_create_autocmd("CursorHold", {
-        command = "lua vim.lsp.buf.hover()",
+        callback = function()
+            vim.lsp.buf.hover()
+        end,
         group = "Preview"
     })
-    vim.api.nvim_create_augroup("END", { clear = true })
-
 
 end)
 lsp.setup()
