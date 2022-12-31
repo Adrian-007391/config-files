@@ -20,6 +20,9 @@
 -[Autotag](https://github.com/windwp/nvim-ts-autotag) for autocompleting html tags (requires Treesitter)
 - [lsp-zero](https://github.com/VonHeikemen/lsp-zero.nvim) as an lsp manager
 - [Toggle-lsp-diagnostics](https://github.com/WhoIsSethDaniel/toggle-lsp-diagnostics.nvim) to toggle lsp diagnostics
+- [comment.nvim](https://github.com/numToStr/Comment.nvim) to comment blocks of text
+- [which key](https://github.com/folke/which-key.nvim) to see my programmed shortcuts
+- [lazygit](https://github.com/kdheepak/lazygit.nvim) to manage github repos
 
 ## Tmux 
 - [Tmux](https://github.com/tmux/tmux) is a terminal multiplexer. 
