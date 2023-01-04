@@ -8,12 +8,9 @@ lsp.on_attach(function(client, bufnr)
         vim.api.nvim_create_autocmd("BufWritePre", { group = "Format", callback = function() vim.lsp.buf.format() end })
     end
     vim.api.nvim_create_augroup("Preview", { clear = true })
-    vim.api.nvim_create_autocmd("CursorHold", {
-        callback = function()
-            vim.lsp.buf.hover()
-        end,
-        group = "Preview"
-    })
+    vim.api.nvim_create_autocmd("CursorHold", { group = "Preview", callback = function()
+        vim.lsp.buf.hover()
+    end })
 
 end)
 lsp.setup()
