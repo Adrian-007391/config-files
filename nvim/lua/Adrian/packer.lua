@@ -79,6 +79,10 @@ return require('packer').startup({ function(use)
     use {
         "folke/which-key.nvim",
     }
+    use("~/Documents/Coding🖥/lua/autoColor/")
+    -- gruvbox theme
+    use { "ellisonleao/gruvbox.nvim" }
+    use("navarasu/onedark.nvim")
 end,
     config = {
         display = {
