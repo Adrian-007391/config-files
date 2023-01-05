@@ -16,8 +16,6 @@ return require('packer').startup({ function(use)
     -- nightfox (theme package)
     use "EdenEast/nightfox.nvim"
 
-    -- catpuccin
-    use { "catppuccin/nvim", as = "catppuccin" }
 
     -- treesitter (Parser)
     use {
@@ -79,7 +77,8 @@ return require('packer').startup({ function(use)
     use {
         "folke/which-key.nvim",
     }
-    use("~/Documents/Coding🖥/lua/autoColor/")
+    -- autocolor (different themes for different projects)
+    use("~/Documents/code_projects/lua/Vim_Plugins/autoColor/")
     -- gruvbox theme
     use { "ellisonleao/gruvbox.nvim" }
     use("navarasu/onedark.nvim")

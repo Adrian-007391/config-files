@@ -87,12 +87,7 @@ _G.packer_plugins = {
   autoColor = {
     loaded = true,
     path = "/Users/adrianeduardotrevinopena/.local/share/nvim/site/pack/packer/start/autoColor",
-    url = "/Users/adrianeduardotrevinopena/Documents/Coding🖥/lua/autoColor/"
-  },
-  catppuccin = {
-    loaded = true,
-    path = "/Users/adrianeduardotrevinopena/.local/share/nvim/site/pack/packer/start/catppuccin",
-    url = "https://github.com/catppuccin/nvim"
+    url = "/Users/adrianeduardotrevinopena/Documents/code_projects/lua/Vim_Plugins/autoColor/"
   },
   ["cmp-buffer"] = {
     loaded = true,
