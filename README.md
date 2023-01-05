@@ -23,10 +23,21 @@
 - [comment.nvim](https://github.com/numToStr/Comment.nvim) to comment blocks of text
 - [which key](https://github.com/folke/which-key.nvim) to see my programmed shortcuts
 - [lazygit](https://github.com/kdheepak/lazygit.nvim) to manage github repos
+- [AutoColor](https://github.com/AdrianETP/AutoColor.nvim) to manage themes on multiple filetypes
+- [vim-tmux navigator](https://github.com/christoomey/vim-tmux-navigator) to navigate panes and vim windows using vim keybindings
+
+#### Themes 
+- [nightfox](https://github.com/EdenEast/nightfox.nvim)
+- [gruvbox](https://github.com/ellisonleao/gruvbox.nvim)
+- [lunar](https://github.com/LunarVim/lunar.nvim)
+- [onedark](https://github.com/navarasu/onedark.nvim)
 
 ## Tmux 
 - [Tmux](https://github.com/tmux/tmux) is a terminal multiplexer. 
     - it enables to have multiple terminals in one window
+### plugins
+- [vim-tmux navigator](https://github.com/christoomey/vim-tmux-navigator) to navigate panes and vim windows using vim keybindings
+- [themepack](https://github.com/jimeh/tmux-themepack)
 
 ## ZSH
 - __ZSH__ is a shell that allows customization with the use of plugins
